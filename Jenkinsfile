@@ -92,6 +92,9 @@ pipeline {
                 // echo "${displayName}"
                 echo "${currentBuild.displayName}"
                 sh 'echo $displayName'
+                sh(script: 'echo $path')
+                sh script: 'echo $path'
+                sh([script: 'echo $path'])
             }
         }
     }
