@@ -49,7 +49,7 @@ pipeline {
                 echo password
                 echo myname
                 sh "echo $PASSWORD"
-                echo $password
+                // echo $password
                 echo 'myname = $myname'
                 echo 'YOUR_NAME = $YOUR_NAME'
                 // @String.valueOf("123")
