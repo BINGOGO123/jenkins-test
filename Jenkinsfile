@@ -7,6 +7,7 @@ pipeline {
         password = credentials("zhbpassword")
         PASSWORD = credentials("zhbpassword")
         myname = String.valueOf(password)
+        apple = "this is a apple"
     }
     stages {
         stage('hello') {
@@ -57,10 +58,10 @@ pipeline {
         }
         stage('go to end') {
             steps {
-                sh "echo ${myname}"
-                sh "echo $myname"
-                sh 'echo ${myname}'
-                sh 'echo $myname'
+                sh "echo ${apple}"
+                sh "echo $apple"
+                sh 'echo ${apple}'
+                sh 'echo $apple'
             }
         }
     }
