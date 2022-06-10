@@ -7,7 +7,7 @@ pipeline {
         password = credentials("zhbpassword")
         PASSWORD = credentials("zhbpassword")
         myname = String.valueOf(password)
-        apple = "this is a apple"
+        apple = "this is a apple; ls"
     }
     stages {
         stage('hello') {
