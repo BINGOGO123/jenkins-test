@@ -5,7 +5,7 @@ pipeline {
         MyError = """${sh(returnStatus: true, script: 'asdf')}"""
         MyCorrect = sh(returnStatus: true, script: 'echo "abc"')
         password = credentials("zhbpassword")
-        myname = String.valueOf("zhbpassword")
+        myname = String.valueOf(password)
     }
     stages {
         stage('hello') {
