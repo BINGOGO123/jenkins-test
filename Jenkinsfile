@@ -81,10 +81,12 @@ pipeline {
         }
 
         stage('second end') {
-            echo "${Greeting}"
-            echo "${params.Greeting}"
-            echo "${apple}"
-            echo "${env.apple}"
+            steps{
+                echo "${Greeting}"
+                echo "${params.Greeting}"
+                echo "${apple}"
+                echo "${env.apple}"
+            }
         }
     }
 }
