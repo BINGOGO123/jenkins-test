@@ -55,5 +55,13 @@ pipeline {
                 // @String.valueOf("123")
             }
         }
+        stage('go to end') {
+            steps {
+                sh "echo ${myname}"
+                sh "echo $myname"
+                sh 'echo ${myname}'
+                sh 'echo $myname'
+            }
+        }
     }
 }
