@@ -5,7 +5,7 @@ pipeline {
         MyError = """${sh(returnStatus: true, script: 'asdf')}"""
         MyCorrect = sh(returnStatus: true, script: 'echo "abc"')
         password = credentials("zhbpassword")
-        PASSWORD = credentials("zhbpassword")
+        Password = credentials("zhbpassword")
         myname = String.valueOf(password)
         apple = "this is a apple; ls"
     }
@@ -49,7 +49,7 @@ pipeline {
                 sh "echo '${new Error("That is fine!")}'"
                 echo password
                 echo myname
-                sh 'echo $PASSWORD'
+                sh 'echo $Password'
                 // echo $password
                 echo 'myname = $myname'
                 echo 'YOUR_NAME = $YOUR_NAME'
@@ -64,7 +64,7 @@ pipeline {
                 sh 'echo $apple'
                 sh 'echo $PATH'
                 sh 'echo $myname'
-                sh 'echo $PASSWORD'
+                sh 'echo $Password'
                 sh 'echo $password'
                 sh "echo $apple"
                 echo "$myname"
