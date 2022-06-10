@@ -33,6 +33,7 @@ pipeline {
             environment {
                 YOUR_NAME = "what fuck?"
                 YourNumber = 123
+                env.BRANCH_NAME = "shadiao"
             }
             steps {
                 sh 'make deploy'
