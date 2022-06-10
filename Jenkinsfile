@@ -63,8 +63,9 @@ pipeline {
                 sh 'echo ${apple}'
                 sh 'echo $apple'
                 sh 'echo $PATH'
-                echo '$PATH'
-                echo '$myname'
+                sh 'echo $myname'
+                // echo '$PATH'
+                // echo '$myname'
             }
         }
     }
