@@ -1,0 +1,288 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make.exe: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2
+This program is built by Equation Solution <http://www.Equation.com>.
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jun 10 13:39:50 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrR
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/t-haibinzang/Desktop/microsoft/jenkins-test
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"C:\\Users\\t-haibinzang\\AppData\\Roaming\\Code\\clp\\42e84e0914b17800d483f69e299e1b00.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\t-haibinzang\\AppData\\Roaming\\Code\\clp\\42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\t-haibinzang\\AppData\\Roaming\\Code\\clp\\42e84e0914b17800d483f69e299e1b00.zh-cn\\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"C:\\Users\\t-haibinzang\\AppData\\Roaming\\Code\\clp\\42e84e0914b17800d483f69e299e1b00.zh-cn\\corrupted.info","_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = D:\software\virtualbox\
+# environment
+NVM_HOME = D:\software\nvm
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\T-HAIB~1\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+NVM_SYMLINK = C:\Program Files\nodejs
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+PYTHONAPIROOT = D:\software\renix3.2.0\server\python_api
+# environment
+MINGW = D:\software\MingW\bin
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-227fc7a6-794d-417f-8304-e9d034c32a9b-sock
+# environment
+VSCODE_CWD = C:\Users\t-haibinzang\Desktop\microsoft
+# default
+MAKE_HOST := x86_64-w64-mingw32
+# environment
+PATH = C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\software\vmvare\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\Git\cmd;C:\ProgramData\chocolatey\bin;D:\software\redis\;D:\software\wamp64\bin\mysql\mysql8.0.18\bin;D:\software\wamp64\bin\php\php7.4.0;D:\software\java8\bin;D:\software\make;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\software\nvm;C:\Program Files\nodejs;D:\software\sqlite3;D:\software\xftp7\;D:\software\xshell7\;C:\Program Files\dotnet\;D:\software\renix3.2.0\server\tcl;D:\software\thrift;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\WINDOWS\System32\OpenSSH\;C:\Windows\System32\OpenSSH;D:\software\go\bin;C:\Users\bingo\AppData\Local\Programs\Python\Python37;D:\software\Microsoft VS Code\bin;D:\software\MingW\binbin;D:\software\nvm;C:\Program Files\nodejs;C:\Users\t-haibinzang\AppData\Local\Microsoft\WindowsApps;C:\Users\t-haibinzang\.dotnet\tools
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+LC_ALL = C
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+ONEDRIVE = C:\Users\t-haibinzang\OneDrive - Microsoft
+# environment
+USERPROFILE = C:\Users\t-haibinzang
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync load
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_39132_WCFLPDUTZDDACETH
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = BINGO-PC
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+USERDNSDOMAIN = redmond.corp.microsoft.com
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ASL.LOG = Destination=file
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = t-haibinzang
+# environment
+PUBLIC = C:\Users\Public
+# environment
+TCLAPIROOT = D:\software\renix3.2.0\server\tcl
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\t-haibinzang\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\BINGO-PC
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = REDMOND
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+JAVA_HOME = D:\software\java
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\t-haibinzang\OneDrive - Microsoft
+# default
+MAKE_VERSION := 4.2
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\t-haibinzang\AppData\Local
+# environment
+PSMODULEPATH = C:\Users\t-haibinzang\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft Azure Information Protection\Powershell
+# default
+MAKE_COMMAND := make.exe
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 166 Stepping 0, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\e26de2f6960c8ef03dce3a115a925d46-1.67.2-main-sock
+# environment
+HOMEPATH = \Users\t-haibinzang
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# environment
+VSCODE = D:\software\Microsoft VS Code
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\t-haibinzang\AppData\Roaming
+# environment
+TEMP = C:\Users\T-HAIB~1\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+RENIX_SERVER_PATH = D:\software\renix3.2.0\server
+# environment
+JAVA8_HOME = D:\software\java8
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+UATDATA = C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+# environment
+JAVA_TOOL_OPTIONS = -Dfile.encoding=UTF-8
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = a600
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 39132
+# environment
+USERDOMAIN_ROAMINGPROFILE = REDMOND
+# variable set hash-table stats:
+# Load=109/1024=11%, Rehash=0, Collisions=18/129=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/t-haibinzang/Desktop/microsoft/jenkins-test, mtime 1654839587ll): 6 files, no impossibilities.
+
+# 6 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-10 13:39:23
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=4/1024=0%, Rehash=0, Collisions=0/14=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 9 / storage = 62 B / avg = 6 B
+# current buf: size = 8162 B / used = 62 B / count = 9 / avg = 6 B
+
+# strcache performance: lookups = 12 / hit rate = 25%
+# hash-table stats:
+# Load=9/8192=0%, Rehash=0, Collisions=1/12=8%
+# Finished Make data base on Fri Jun 10 13:39:50 2022
+
+ 
