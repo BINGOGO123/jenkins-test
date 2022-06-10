@@ -18,6 +18,11 @@ pipeline {
 
         }
         stage('deploy') {
+            when {
+                expression {
+                    currentBuild.result == null || currentBuild.result == 'SUCCESS'
+                }
+            }
             steps {
                 powershell 'make deploy'
             }
