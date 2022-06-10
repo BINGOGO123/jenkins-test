@@ -21,12 +21,12 @@ pipeline {
         }
         stage('build') {
             steps {
-                pwsh 'make a.txt'
+                sh 'make a.txt'
             }
         }
         stage('test') {
             steps {
-                bat 'make test'
+                sh 'make test'
             }
 
         }
