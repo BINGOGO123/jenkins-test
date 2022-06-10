@@ -40,7 +40,7 @@ pipeline {
                     script: "echo 'fuck you ${CC}'"
                 )
                 sh "echo '${MyError}\n${MyCorrect}'"
-                sh "echo '${Error}\n${MyCorrect}'"
+                sh "echo '${new Error("That is fine!")}'"
             }
         }
     }
