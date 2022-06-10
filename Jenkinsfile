@@ -42,7 +42,7 @@ pipeline {
                 )
                 sh "echo '${MyError}\n${MyCorrect}'"
                 sh "echo '${new Error("That is fine!")}'"
-                sh """echo "${System.out.println}""""
+                sh """echo "${System.out.println}"""
             }
         }
     }
