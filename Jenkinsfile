@@ -72,8 +72,6 @@ pipeline {
                 sh 'echo $PATH'
                 sh 'echo $password1'
                 echo Password
-
-                p
                 // echo '$PATH'
                 // echo '$myname'
             }
