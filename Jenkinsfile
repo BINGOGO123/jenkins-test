@@ -43,7 +43,7 @@ pipeline {
                 )
                 sh "echo '${MyError}\n${MyCorrect}'"
                 sh "echo '${new Error("That is fine!")}'"
-                echo passwd
+                echo password
             }
         }
     }
