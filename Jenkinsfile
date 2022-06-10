@@ -8,18 +8,18 @@ pipeline {
         }
         stage('build') {
             steps {
-                make
+                sh 'make a.txt'
             }
         }
         stage('test') {
             steps {
-                make test
+                sh 'make test'
             }
 
         }
         stage('deploy') {
             steps {
-                make deploy
+                sh 'make deploy'
             }
         }
     }
