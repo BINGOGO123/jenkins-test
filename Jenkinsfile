@@ -5,7 +5,6 @@ pipeline {
         password = credentials("zhbpassword")
         Password = credentials("zhbpassword")
         password1 = credentials("zhbpassword")
-        myname = String.valueOf(password)
         apple = "this is a apple; ls"
     }
     parameters {
