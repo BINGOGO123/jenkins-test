@@ -68,6 +68,7 @@ pipeline {
                 sh 'echo $password'
                 sh "echo $apple"
                 echo "$myname"
+                sh 'echo $PATH'
                 // echo '$PATH'
                 // echo '$myname'
             }
