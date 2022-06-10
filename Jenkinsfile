@@ -1,9 +1,8 @@
 pipeline {
-    agent { docker 'maven:3.3.3' }
     stages {
-        stage('build') {
+        stage('hello') {
             steps {
-                sh 'mvn --version'
+                echo "Hello World"
             }
         }
     }
