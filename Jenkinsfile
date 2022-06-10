@@ -33,7 +33,7 @@ pipeline {
             environment {
                 YOUR_NAME = "what fuck?"
                 YourNumber = 123
-                env.BRANCH_NAME = "shadiao"
+                // env.BRANCH_NAME = "shadiao"
             }
             steps {
                 sh 'make deploy'
@@ -47,6 +47,7 @@ pipeline {
                 sh "echo '${new Error("That is fine!")}'"
                 echo password
                 echo myname
+                echo '$myname'
                 // @String.valueOf("123")
             }
         }
