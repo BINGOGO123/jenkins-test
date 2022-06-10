@@ -86,6 +86,8 @@ pipeline {
                 echo "${params.Greeting}"
                 echo "${apple}"
                 echo "${env.apple}"
+                echo "${BRANCH_NAME}"
+                echo "${env.BRANCH_NAME}"
             }
         }
     }
