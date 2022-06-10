@@ -48,7 +48,7 @@ pipeline {
                 sh "echo '${new Error("That is fine!")}'"
                 echo password
                 echo myname
-                sh "echo $PASSWORD"
+                sh 'echo $PASSWORD'
                 // echo $password
                 echo 'myname = $myname'
                 echo 'YOUR_NAME = $YOUR_NAME'
