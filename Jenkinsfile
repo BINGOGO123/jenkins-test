@@ -10,6 +10,9 @@ pipeline {
         myname = String.valueOf(password)
         apple = "this is a apple; ls"
     }
+    parameters {
+        string(name: "Greeting", defaultValue: "Hello", description: "This is 'hello'!")
+    }
     stages {
         stage('hello') {
             steps {
@@ -75,6 +78,13 @@ pipeline {
                 // echo '$PATH'
                 // echo '$myname'
             }
+        }
+
+        stage('second end') {
+            echo "${Greeting}"
+            echo "${params.Greeting}"
+            echo "${apple}"
+            echo "${env.apple}"
         }
     }
 }
