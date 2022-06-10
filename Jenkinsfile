@@ -24,7 +24,7 @@ pipeline {
                 }
             }
             steps {
-                powershell 'make deploy'
+                sh 'make deploy'
             }
         }
     }
