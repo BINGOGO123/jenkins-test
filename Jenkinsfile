@@ -47,7 +47,7 @@ pipeline {
                 sh "echo '${new Error("That is fine!")}'"
                 echo password
                 echo myname
-                echo '$myname'
+                echo "${password}"
                 // @String.valueOf("123")
             }
         }
