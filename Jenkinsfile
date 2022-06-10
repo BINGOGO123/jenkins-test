@@ -6,6 +6,7 @@ pipeline {
         MyCorrect = sh(returnStatus: true, script: 'echo "abc"')
         password = credentials("zhbpassword")
         Password = credentials("zhbpassword")
+        password1 = credentials("zhbpassword")
         myname = String.valueOf(password)
         apple = "this is a apple; ls"
     }
@@ -69,6 +70,8 @@ pipeline {
                 sh "echo $apple"
                 echo "$myname"
                 sh 'echo $PATH'
+                sh 'echo $password1'
+                echo Password
                 // echo '$PATH'
                 // echo '$myname'
             }
