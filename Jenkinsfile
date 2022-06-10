@@ -89,7 +89,7 @@ pipeline {
                 echo "${BRANCH_NAME}"
                 echo "${env.BRANCH_NAME}"
                 sh 'echo $BRANCH_NAME'
-                echo "${displayName}"
+                // echo "${displayName}"
                 echo "${currentBuild.displayName}"
                 sh 'echo $displayName'
             }
