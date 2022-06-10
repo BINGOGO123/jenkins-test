@@ -35,7 +35,7 @@ pipeline {
                 echo "${CC}\n${YOUR_NAME}"
                 sh(
                     returnStdout: true,
-                    script: "echo 'fuck you ${CC}"
+                    script: "echo 'fuck you ${CC}'"
                 )
             }
         }
