@@ -2,8 +2,8 @@ pipeline {
     agent any
     environment {
         CC = "flag"
-        Error = """${sh(returnStatus: true, script: 'asdf')}"""
-        Correct = sh(returnStatus: true, script: 'echo "abc"')
+        MyError = """${sh(returnStatus: true, script: 'asdf')}"""
+        MyCorrect = sh(returnStatus: true, script: 'echo "abc"')
     }
     stages {
         stage('hello') {
@@ -39,7 +39,8 @@ pipeline {
                     returnStdout: true,
                     script: "echo 'fuck you ${CC}'"
                 )
-                sh "echo '${Error}\n${Correct}'"
+                sh "echo '${MyError}\n${MyCorrect}'"
+                sh "echo '${Error}\n${MyCorrect}'"
             }
         }
     }
