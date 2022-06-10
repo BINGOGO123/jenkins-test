@@ -4,6 +4,7 @@ pipeline {
         CC = "flag"
         MyError = """${sh(returnStatus: true, script: 'asdf')}"""
         MyCorrect = sh(returnStatus: true, script: 'echo "abc"')
+        password = credentials("zhbpassword")
     }
     stages {
         stage('hello') {
@@ -42,7 +43,7 @@ pipeline {
                 )
                 sh "echo '${MyError}\n${MyCorrect}'"
                 sh "echo '${new Error("That is fine!")}'"
-                new Error("abc")
+                echo passwd
             }
         }
     }
