@@ -19,7 +19,7 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                sh 'make deploy'
+                powershell 'make deploy'
             }
         }
     }
