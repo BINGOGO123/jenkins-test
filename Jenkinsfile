@@ -62,6 +62,9 @@ pipeline {
                 sh "echo $apple"
                 sh 'echo ${apple}'
                 sh 'echo $apple'
+                sh 'echo $PATH'
+                echo '$PATH'
+                echo '$myname'
             }
         }
     }
