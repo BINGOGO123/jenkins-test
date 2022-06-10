@@ -8,7 +8,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                make a.txt
+                make
             }
         }
         stage('test') {
