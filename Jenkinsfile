@@ -42,6 +42,7 @@ pipeline {
                 )
                 sh "echo '${MyError}\n${MyCorrect}'"
                 sh "echo '${new Error("That is fine!")}'"
+                System.out.println("hello, guys")
             }
         }
     }
