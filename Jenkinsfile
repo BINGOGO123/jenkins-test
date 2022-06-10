@@ -18,12 +18,12 @@ pipeline {
         }
         stage('build') {
             steps {
-                sh 'make a.txt'
+                pwsh 'make a.txt'
             }
         }
         stage('test') {
             steps {
-                sh 'make test'
+                bat 'make test'
             }
 
         }
@@ -72,6 +72,8 @@ pipeline {
                 sh 'echo $PATH'
                 sh 'echo $password1'
                 echo Password
+
+                p
                 // echo '$PATH'
                 // echo '$myname'
             }
