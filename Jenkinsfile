@@ -2,8 +2,6 @@ pipeline {
     agent any
     environment {
         CC = "flag"
-        MyError = """${sh(returnStatus: true, script: 'asdf')}"""
-        MyCorrect = sh(returnStatus: true, script: 'echo "abc"')
         password = credentials("zhbpassword")
         Password = credentials("zhbpassword")
         password1 = credentials("zhbpassword")
