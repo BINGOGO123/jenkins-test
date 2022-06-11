@@ -1,5 +1,5 @@
 a.txt: Jenkinsfile
-	cat Jenkinsfile > a.txt
+	type Jenkinsfile > a.txt
 
 .PHONY: clean test deploy
 clean:
