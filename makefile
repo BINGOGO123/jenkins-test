@@ -6,7 +6,7 @@ clean:
 	del a.txt
 
 test:
-	cat a.txt
+	type a.txt
 
 deploy:
 	echo deploy
