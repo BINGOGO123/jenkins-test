@@ -1,6 +1,5 @@
 make.exe --dry-run --always-make --keep-going --print-directory
 make.exe: Entering directory 'c:/Users/t-haibinzang/Desktop/microsoft/jenkins-test'
+cat Jenkinsfile > a.txt
 make.exe: Leaving directory 'c:/Users/t-haibinzang/Desktop/microsoft/jenkins-test'
  
-make.exe: *** No targets.  Stop.
-

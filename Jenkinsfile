@@ -97,5 +97,11 @@ pipeline {
                 sh([script: 'echo $path'])
             }
         }
+
+        stage('third end') {
+            steps {
+                echo "hello"
+            }
+        }
     }
 }

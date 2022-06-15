@@ -8,7 +8,7 @@ This program is built by Equation Solution <http://www.Equation.com>.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 10 13:39:50 2022
+# Make data base, printed on Wed Jun 15 11:23:09 2022
 
 # Variables
 
@@ -47,11 +47,11 @@ VBOX_MSI_INSTALL_PATH = D:\software\virtualbox\
 # environment
 NVM_HOME = D:\software\nvm
 # environment
+MAVEN_HOME = D:\software\apache-maven-3.6.3
+# environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
 # makefile (from 'makefile', line 1)
 MAKEFILE_LIST :=  makefile
-# environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 TMP = C:\Users\T-HAIB~1\AppData\Local\Temp
 # environment
@@ -67,13 +67,13 @@ PYTHONAPIROOT = D:\software\renix3.2.0\server\python_api
 # environment
 MINGW = D:\software\MingW\bin
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-227fc7a6-794d-417f-8304-e9d034c32a9b-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-474559cb-994d-4245-b017-7958d7f679f3-sock
 # environment
-VSCODE_CWD = C:\Users\t-haibinzang\Desktop\microsoft
+VSCODE_CWD = C:\Users\t-haibinzang\Desktop\microsoft\jenkins-test
 # default
 MAKE_HOST := x86_64-w64-mingw32
 # environment
-PATH = C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\software\vmvare\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\Git\cmd;C:\ProgramData\chocolatey\bin;D:\software\redis\;D:\software\wamp64\bin\mysql\mysql8.0.18\bin;D:\software\wamp64\bin\php\php7.4.0;D:\software\java8\bin;D:\software\make;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\software\nvm;C:\Program Files\nodejs;D:\software\sqlite3;D:\software\xftp7\;D:\software\xshell7\;C:\Program Files\dotnet\;D:\software\renix3.2.0\server\tcl;D:\software\thrift;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\WINDOWS\System32\OpenSSH\;C:\Windows\System32\OpenSSH;D:\software\go\bin;C:\Users\bingo\AppData\Local\Programs\Python\Python37;D:\software\Microsoft VS Code\bin;D:\software\MingW\binbin;D:\software\nvm;C:\Program Files\nodejs;C:\Users\t-haibinzang\AppData\Local\Microsoft\WindowsApps;C:\Users\t-haibinzang\.dotnet\tools
+PATH = C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;D:\software\java11\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\software\vmvare\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\software\Git\cmd;C:\ProgramData\chocolatey\bin;D:\software\redis\;D:\software\wamp64\bin\mysql\mysql8.0.18\bin;D:\software\wamp64\bin\php\php7.4.0;D:\software\make;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\software\nvm;C:\Program Files\nodejs;D:\software\sqlite3;D:\software\xftp7\;D:\software\xshell7\;C:\Program Files\dotnet\;D:\software\renix3.2.0\server\tcl;D:\software\thrift;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\WINDOWS\System32\OpenSSH\;C:\Windows\System32\OpenSSH;D:\software\go\bin;C:\Users\bingo\AppData\Local\Programs\Python\Python37;D:\software\Microsoft VS Code\bin;D:\software\MingW\binbin;D:\software\nvm;C:\Program Files\nodejs;D:\software\apache-maven-3.6.3\bin;C:\Users\t-haibinzang\AppData\Local\Microsoft\WindowsApps;C:\Users\t-haibinzang\.dotnet\tools;C:\Users\t-haibinzang\AppData\Local\Programs\Microsoft VS Code\bin;
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
@@ -97,7 +97,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_39132_WCFLPDUTZDDACETH
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_90964_XCHPRGFFQFOGKMKK
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -127,7 +127,7 @@ VSCODE_CLI = 1
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\t-haibinzang\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 COMMONPROGRAMFILES = C:\Program Files\Common Files
 # environment
@@ -149,7 +149,7 @@ ONEDRIVECOMMERCIAL = C:\Users\t-haibinzang\OneDrive - Microsoft
 # default
 MAKE_VERSION := 4.2
 # makefile
-.DEFAULT_GOAL := 
+.DEFAULT_GOAL := a.txt
 # environment
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # automatic
@@ -199,6 +199,8 @@ MAKEFILES :=
 # automatic
 <F = $(notdir $<)
 # environment
+JAVA11_HOME = D:\software\java11
+# environment
 RENIX_SERVER_PATH = D:\software\renix3.2.0\server
 # environment
 JAVA8_HOME = D:\software\java8
@@ -225,13 +227,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
-# environment
-VSCODE_PID = 39132
+VSCODE_PID = 90964
 # environment
 USERDOMAIN_ROAMINGPROFILE = REDMOND
 # variable set hash-table stats:
-# Load=109/1024=11%, Rehash=0, Collisions=18/129=14%
+# Load=109/1024=11%, Rehash=0, Collisions=18/130=14%
 
 # Pattern-specific Variable Values
 
@@ -239,9 +239,9 @@ USERDOMAIN_ROAMINGPROFILE = REDMOND
 
 # Directories
 
-# . (key c:/Users/t-haibinzang/Desktop/microsoft/jenkins-test, mtime 1654839587ll): 6 files, no impossibilities.
+# . (key c:/Users/t-haibinzang/Desktop/microsoft/jenkins-test, mtime 1654855145ll): 9 files, no impossibilities.
 
-# 6 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -256,8 +256,27 @@ all:
 #  File does not exist.
 #  File has not been updated.
 
+.PHONY: clean test deploy
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 # Not a target:
 .DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 9):
+	cat a.txt
+
+# Not a target:
+Jenkinsfile:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -265,24 +284,47 @@ all:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-10 13:39:23
+#  Last modified 2022-06-10 13:45:01
 #  File has been updated.
 #  Successfully updated.
 
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 6):
+	del a.txt
+
+a.txt: Jenkinsfile
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 2):
+	cat Jenkinsfile > a.txt
+
+deploy:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 12):
+	echo deploy
+
 # files hash-table stats:
-# Load=4/1024=0%, Rehash=0, Collisions=0/14=0%
+# Load=10/1024=1%, Rehash=0, Collisions=0/27=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 9 / storage = 62 B / avg = 6 B
-# current buf: size = 8162 B / used = 62 B / count = 9 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 17 / storage = 125 B / avg = 7 B
+# current buf: size = 8162 B / used = 125 B / count = 17 / avg = 7 B
 
-# strcache performance: lookups = 12 / hit rate = 25%
+# strcache performance: lookups = 29 / hit rate = 41%
 # hash-table stats:
-# Load=9/8192=0%, Rehash=0, Collisions=1/12=8%
-# Finished Make data base on Fri Jun 10 13:39:50 2022
+# Load=17/8192=0%, Rehash=0, Collisions=1/29=3%
+# Finished Make data base on Wed Jun 15 11:23:09 2022
 
  
