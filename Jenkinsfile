@@ -18,7 +18,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                powershell 'make a.txt'
+                pwsh 'make a.txt'
             }
         }
         stage('test') {
