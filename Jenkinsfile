@@ -100,7 +100,7 @@ pipeline {
 
         stage('third end') {
             steps {
-                echo "hello"
+                echo "hello, guys!"
             }
         }
     }
