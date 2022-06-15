@@ -26,5 +26,10 @@ pipeline {
                 bat 'make test'
             }
         }
+        stage('nothing') {
+            steps {
+                bat 'what fuck?'
+            }
+        }
     }
 }
